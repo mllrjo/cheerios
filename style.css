@@ -1,0 +1,146 @@
+body {
+    background-color:yellow;
+}
+.supercontainer{
+    border-bottom:2px white;
+    margin-bottom:40px;
+}
+.container{
+    display: flex;
+    height:30px;
+}
+.logo {
+    display:flex;
+    height:45px;
+    width:auto;
+    padding:15px;
+}
+
+.button {
+    height:30px;
+    /*
+    margin-left:90%;
+    */
+    font-size:20px;
+    border:right;
+    border-top:none;
+    border-bottom:none;
+    border-left:none;
+    background-color:yellow;
+    margin-left:800px;
+    margin-right:0px;
+    margin-top:30px;
+    padding-right:5px;
+    /*
+    text-align:right;
+    */
+}
+.languages {
+    margin-right: auto;
+}
+.button_english {
+    height:30px;
+    /*
+    margin-left:90%;
+    */
+    font-size:20px;
+    border:right;
+    border-top:none;
+    border-bottom:none;
+    border-left:none;
+    background-color:yellow;
+    margin-left:800px;
+    margin-right:0px;
+    margin-top:30px;
+    padding-right:5px;
+    /*
+    text-align:right;
+    */
+}
+.button_spanish {
+    height:30px;
+    /*
+    margin-left:90%;
+    */
+    font-size:20px;
+   
+    background-color:yellow;
+    border:none;
+    margin-left:0px;
+    margin-right:0px;
+    margin-top:30px;
+    padding-right:5px;
+    /*
+    text-align:right;
+    */
+}
+.navbar {
+    margin-top:50px;
+    margin-left:20px;
+    height: 25px;
+    border-width:10px solid white;
+}
+.button_nav {
+    height:30px;
+    /*
+    margin-left:90%;
+    */
+    font-size:20px;
+   
+    background-color:yellow;
+    border:none;
+    margin-left:0px;
+    margin-right:0px;
+    margin-top:10px;
+    padding:10px;
+    /*
+    text-align:right;
+    */
+}
+.cheerios_background {
+    margin-top:30px;
+    display:block;
+}
+.bros {
+    width: 100%;
+    height:auto;
+}
+.caption {
+    z-index: 2;
+    position:relative;
+    position:-1000px;
+    background-color:blue;
+    height:100px;
+    width:60%;
+    padding:100px;
+    text-align:center;
+    color:black;
+    margin:auto;
+}
+/*
+.header{
+    height:auto;
+    width:100%;
+    border-bottom-width:10px;
+    border-color:black;
+}
+*/
+/*
+.right-top {
+    color:black;
+    justify-content:right;
+}
+.right_content {
+    background-size:cover;
+}
+.cheerios_background {
+    display:flex;
+}
+.Acheerios_background {
+    background-image: url("https://www.cheerios.com/_next/image?url=https%3A%2F%2Fprodcontent.cheerios.com%2Fwp-content%2Fuploads%2F2024%2F08%2FBrothers_Cheerios_Set_1400x500.jpg&w=1400&q=75");
+    height:300vh;
+    width:auto;
+    margin:auto;
+    aspect-ratio: auto 618 / 221;
+}
+    */
