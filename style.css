@@ -106,16 +106,16 @@ body {
     height:auto;
 }
 .caption {
-    z-index: 2;
+    z-index: 1;
     position:relative;
-    position:-1000px;
     background-color:blue;
     height:100px;
     width:60%;
-    padding:100px;
+    padding:10px;
     text-align:center;
     color:black;
     margin:auto;
+    bottom:50px;
 }
 /*
 .header{
