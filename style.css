@@ -1,146 +1,99 @@
+/* Set a yellow background for the page */
 body {
     background-color:yellow;
 }
-.supercontainer{
-    border-bottom:2px white;
-    margin-bottom:40px;
-}
-.container{
-    display: flex;
-    height:30px;
-}
-.logo {
-    display:flex;
-    height:45px;
-    width:auto;
-    padding:15px;
+
+/* Wrapper container for all content */
+.supercontainer {
+    border-bottom: 2px solid white; /* Add a visual divider */
+    margin-bottom: 40px;           /* Space below the container */
 }
 
-.button {
-    height:30px;
-    /*
-    margin-left:90%;
-    */
-    font-size:20px;
-    border:right;
-    border-top:none;
-    border-bottom:none;
-    border-left:none;
-    background-color:yellow;
-    margin-left:800px;
-    margin-right:0px;
-    margin-top:30px;
-    padding-right:5px;
-    /*
-    text-align:right;
-    */
+/* Header container styles */
+.container {
+    display: flex;
+    height: 30px;
 }
+
+/* Logo styling */
+.logo {
+    display: flex;
+    height: 45px;
+    width: auto;
+    padding: 15px; /* Add spacing around the logo */
+}
+
+
+/* Styling for the languages section */
 .languages {
-    margin-right: auto;
-}
-.button_english {
-    height:30px;
-    /*
-    margin-left:90%;
-    */
-    font-size:20px;
-    border:right;
-    border-top:none;
-    border-bottom:none;
-    border-left:none;
-    background-color:yellow;
-    margin-left:800px;
-    margin-right:0px;
-    margin-top:30px;
-    padding-right:5px;
-    /*
-    text-align:right;
-    */
-}
-.button_spanish {
-    height:30px;
-    /*
-    margin-left:90%;
-    */
-    font-size:20px;
-   
-    background-color:yellow;
-    border:none;
-    margin-left:0px;
-    margin-right:0px;
-    margin-top:30px;
-    padding-right:5px;
-    /*
-    text-align:right;
-    */
-}
-.navbar {
-    margin-top:50px;
-    margin-left:20px;
-    height: 25px;
-    border-width:10px solid white;
-}
-.button_nav {
-    height:30px;
-    /*
-    margin-left:90%;
-    */
-    font-size:20px;
-   
-    background-color:yellow;
-    border:none;
-    margin-left:0px;
-    margin-right:0px;
-    margin-top:10px;
-    padding:10px;
-    /*
-    text-align:right;
-    */
-}
-.cheerios_background {
-    margin-top:30px;
-    display:block;
-}
-.bros {
-    width: 100%;
-    height:auto;
-}
-.caption {
-    z-index: 1;
+    display: flex;
+    margin-left: auto; /* Align the buttons to the right of the container */
     position:relative;
-    background-color:blue;
-    height:100px;
-    width:60%;
-    padding:10px;
-    text-align:center;
-    color:black;
-    margin:auto;
-    bottom:50px;
 }
-/*
-.header{
-    height:auto;
-    width:100%;
-    border-bottom-width:10px;
-    border-color:black;
+.button_language {
+    height: 30px;
+    font-size: 20px;
+    background-color: yellow; /* Match the page background */
+    margin-top: 30px;
+    padding-right: 5px;       /* Add spacing inside buttons */
 }
-*/
-/*
-.right-top {
-    color:black;
-    justify-content:right;
+#Spa {
+    border:none;
+    padding-top:4px;
 }
-.right_content {
-    background-size:cover;
+#Eng {
+    border:none;
+    border-right:2px solid black;
+    padding-right:8px;
+    padding-top:4px;
+    margin-top:35;
 }
-.cheerios_background {
+
+/* Navigation bar styling */
+.navbar {
     display:flex;
+    margin-top: 50px;       /* Add space above navbar */
+    margin-left: 20px;      /* Add space to the left */
+    height: 25px;           /* Set height of navbar */
 }
-.Acheerios_background {
-    background-image: url("https://www.cheerios.com/_next/image?url=https%3A%2F%2Fprodcontent.cheerios.com%2Fwp-content%2Fuploads%2F2024%2F08%2FBrothers_Cheerios_Set_1400x500.jpg&w=1400&q=75");
-    height:300vh;
-    width:auto;
-    margin:auto;
-    aspect-ratio: auto 618 / 221;
+
+/* Styling for individual navigation buttons */
+button {
+    height: 30px;
+    font-size: 20px;
+    background-color: yellow; /* Match page background */
+    margin-top:20px;         /* Add vertical spacing */
+    padding:10px;            /* Add inner padding */
+    border:none;
 }
-    */
+#button_one{
+    padding-left:0;
+}
+
+/* Background image container */
+.cheerios_background {
+    margin-top: 30px;
+    display: block;           /* Ensure it takes full width */
+    position: relative;       /* Enable positioning of child elements */
+}
+
+/* Styling for the background image */
+.bros {
+    width: 100%;              /* Make the image responsive */
+    height: auto;             /* Maintain aspect ratio */
+}
+
+/* Blue caption box styling */
+.caption {
+    z-index: 1;               /* Ensure it appears above the image */
+    position: absolute;       /* Position relative to .cheerios_background */
+    background-color: blue;   /* Blue background color */
+    height: 20%;            /* Fixed height */
+    width: 60%;               /* Caption takes 60% of the width */
+    padding: 10px;            /* Inner padding for text */
+    text-align: center;       /* Center-align text inside the box */
+    color: black;             /* Text color */
+    left: 50%;                /* Center horizontally */
+    transform: translateX(-50%); /* Center alignment correction */
+    bottom: -10%;            /* Position so half is outside the image */
+}
