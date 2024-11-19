@@ -1,0 +1,1 @@
+This webpage was composed by me, with the help of Bryan to configure the text box in the foreground, and chatGPT showed me how to use transform(translateX). At my request, chatGPT commented the code for me.
